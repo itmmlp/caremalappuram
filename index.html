@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/styles.css" />
+
+    <script src="https://rawgit.com/sitepoint-editors/jsqrcode/master/src/qr_packed.js"></script>
+    <title>Care Malappuram</title>
+  </head>
+  <body>
+    <section class="scanner">
+      <div class="card">
+        <div class="card-body">
+          <div id="container">
+            <h2>Care Malappuram</h2>
+            <h4>QR Code Scanner</h4>
+            
+            <a id="btn-scan-qr">
+              <img src="src/scan.jpg">
+            <a/>
+    
+            <canvas hidden="" id="qr-canvas"></canvas>
+    
+            <div id="loadingIcon" hidden=""><img src="src/loading.gif"><br>Scanning...</div>
+
+            <div id="qr-result" hidden="">
+              <b>Message:</b> <span id="outputData"></span>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <p class="info">In Covid times it is very important to maintain a register to record details of visitors of any public place or any event allowed as per rules. 
+            So please scan the pasted QR code infront of Shop/Establishments/Public places and enter your details easily.</p>
+            <br>
+            <p class="info">To register your Shop/Establishments/Public places in jagratha portal and obatain QR Code, Please <a href="https://covid19jagratha.kerala.nic.in/home/shopOfficeRegistration">register here</a></p>
+        </div>
+      </div>
+  </section>
+    <section class="footer">
+      <a id="ksitmFooter" href="https://sites.google.com/view/itmmlp/home" title="KSITM Malappuram">Designed, developed and maintained by KSITM Malappuram</a> 
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    
+    <script src="/src/qrCodeScanner.js"></script>
+  </body>
+</html>
